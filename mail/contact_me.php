@@ -20,7 +20,7 @@ $to = 'hello@codeforpoznan.pl'; // Add your email address inbetween the '' repla
 $email_subject = "Formularz kontaktowy Code For Poznan:  $name";
 $email_body = "Otrzymałeś nową wiadomość z formularza kontaktowego codeforpoznan.pl.\n\n"."Oto szczegóły:\n\nImię: $name\n\nEmail: $email_address\n\nTelefon: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@codeforpoznan.pl\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com;
-$headers .= "Reply - to : $email_address";
+$headers .= "Reply-to : $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>
