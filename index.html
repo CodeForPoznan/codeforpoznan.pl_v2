@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Code for Poznań</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Theme CSS -->
@@ -55,13 +55,13 @@
                         <a href="#about_us">O NAS</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#our_projects">NASZE PROJEKTY</a>
+                        <a href="#portfolio">NASZE PROJEKTY</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#join_us">DOŁĄCZ DO NAS</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact_me">KONTAKT</a>
+                        <a href="#contact">KONTAKT</a>
                     </li>
                 </ul>
             </div>
@@ -74,42 +74,41 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="img/profile.png" alt="code for poznan">
                     <div class="intro-text">
                         <h1 class="name">Code for Poznan</h1>
-                        <hr class="star-light">
-                        <span class="skills"></span>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-      <!-- About Section -->
-    <section class="success" id="about_us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>O NAS</h2>
-                    <hr class="star-light">
+            </div> 
+                <!-- About Section -->
+            <div id="about_us">
+                <div class="row">
+                    <br><br>
+                    <div class="col-lg-12 text-center">
+                        <h2>O NAS</h2>
+                        <hr class="star-light">
+                    </div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-lg-4 col-lg-offset-1 text-center">
+                    <!-- dirty fixes -->
+                    <br><br>
                     <p>KIM JESTEŚMY?</p>
-                    <P>
-                    <br>Grupą osób, która uważa, że warto ulepszać świat za pomocą technologii i chce dostarczyć narzędzia, dzięki którym każdy będzie mógł to robić.</p>
+                    <p><br>Grupą osób, która uważa, że warto ulepszać świat za pomocą technologii i&nbsp;chce dostarczyć narzędzia, dzięki którym każdy będzie mógł to robić.</p>
                 </div>
                 <div class="col-lg-6 col-lg-offset-1 text-center">
+                    <!-- dirty fixes -->
+                    <br><br>
                     <p>CO ROBIMY?</p>
-                    <p>
-                    <br>Projektujemy. Programujemy. Testujemy. Poprawiamy.
+                    <p><br>Projektujemy. Programujemy. Testujemy. Poprawiamy.
                         Tworzymy aplikacje społeczne, które aktywują użytkowników do działania na rzecz swojej społeczności czy jakiegoś interesu społecznego.</p>
+                </div>
             </div>
         </div>
-    </section>
-  <!-- Contact Section -->
-    <!-- Contact Section -->
-    <section id="our_projects">
+    </header>      
+    <!--- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -125,7 +124,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+                        <img src="img/portfolio/volontulo.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -135,7 +134,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
+                        <img src="img/portfolio/wysadz_ulice.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -145,7 +144,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
+                        <img src="img/portfolio/bank_empatii.png" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
             </div>
@@ -162,18 +161,13 @@
                </div>
                <div class="row text-center">
                    <div class="col-lg-8 col-lg-offset-2">
-                       <p>Kodujesz? Jesteś grafikiem? UX-owcem? Robisz cokolwiek innego, co może się przydać w kodowaniu dla Poznania? Dołącz do nas! Spotykamy się w każdą środę o godz. 18 przy ul. Morawskiego 12/5 (koło Areny).</p>
-                   </div>
-                   <div class="col-lg-8 col-lg-offset-2 text-center">
-                       <a href="#contact_me" class="btn btn-lg btn-outline">
-                           <i class="fa fa-envelope"></i> KONTAKT
-                       </a>
+                       <p>Kodujesz? Jesteś grafikiem? UX-owcem? Robisz cokolwiek innego, co może się przydać w kodowaniu dla Poznania? Dołącz do nas! Spotykamy się w każdą środę od godz. 17:00 w firmie STX Next przy ul. Morawskiego 12 (koło Areny).</p>
                    </div>
                </div>
            </div>
        </section>
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -215,6 +209,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                        <!-- dirty fix -->
                         <br>
                         <div id="success"></div>
                         <div class="row">
@@ -233,12 +228,9 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>MEDIA</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="https://github.com/CodeForPoznan" class="btn-social btn-outline"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
@@ -255,8 +247,6 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -265,7 +255,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Code for Poznan 2017
                     </div>
                 </div>
             </div>
@@ -292,7 +282,7 @@
                         <div class="modal-body">
                             <h2>Volontulo</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/volontulo.png" class="img-responsive img-centered" alt="">
                             <p>Portal Volontulo powstał dla ludzi i organizacji skupionych wokół idei pomocy innym poprzez udział we wolontariacie. Celem projektu jest pomoc we wzajemnym odnalezieniu się ludzi, którzy chcą realizować się jako wolontariusze/szki oraz organizacji i instytucji, które takich osób poszukują. Podział na strefę "Wolontariusza" oraz "Strefę organizacji i instytucji" umożliwa użytkownikom zwinną nawigację na stronie.</p>
                             <p>Kliknij <a href="http://volontuloapp.org/o">tutaj</a>, aby wejść na stronę.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -316,7 +306,7 @@
                         <div class="modal-body">
                             <h2>Wysadź Ulice</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/wysadz_ulice.png" class="img-responsive img-centered" alt="">
                             <p>Jest to jeden z projektów Code For Poznań, społeczności poszukującej technologicznych rozwiązań społecznych problemów. Stworzona w tym projekcie platforma dostarcza mieszkańcom narzędzi do planowania przestrzennego okolicy oraz pozwala wpłynąć na kształ miast czy najbliższego otoczenia. Technologie zastosowane w projekcie: Python, Django i JavaScript.</p>
                             <p>Kliknij <a href="http://wysadzulice.pl//">tutaj</a>, aby wejść na stronę.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -340,8 +330,8 @@
                         <div class="modal-body">
                             <h2>Bank Empatii</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Bank empatii to projekt strony Patrycji Krawczyk, która zmaga się z białaczką limfoblastyczną i chce znaleźć dawcę komórek macierzystach o podobnym do Patrycji kodzie genetycznym. Trzy główne panele "Historia Patrycji", "Jak wygląda badanie?"" oraz "Gdzie się zgłosić?" kierują użytkowników strony do uzyskania informacji na temat jak zostać dawcą szpiku oraz czym jest Rejestr Dawców. Na stronie znajduje się mapa Polski z umiejscowieniem punktów poboru krwi.</p>
+                            <img src="img/portfolio/bank_empatii.png" class="img-responsive img-centered" alt="">
+                            <p>Bank Empatii to projekt strony Patrycji Krawczyk, która zmaga się z białaczką limfoblastyczną i chce znaleźć dawcę komórek macierzystach o podobnym do Patrycji kodzie genetycznym. Trzy główne panele "Historia Patrycji", "Jak wygląda badanie? oraz "Gdzie się zgłosić?" kierują użytkowników strony do uzyskania informacji na temat jak zostać dawcą szpiku oraz czym jest Rejestr Dawców. Na stronie znajduje się mapa Polski z umiejscowieniem punktów poboru krwi.</p>
                             <p>Kliknij <a href="http://bankempatii.pl/">tutaj</a>, aby wejść na stronę.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
