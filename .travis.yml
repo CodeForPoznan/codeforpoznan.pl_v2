@@ -9,9 +9,5 @@ install:
 script:
 
    - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" = false ]; then
-       export REPO=codeforpoznan/volontulo;
-       export TAG=latest;
-
-       pip install fabric;
        fab -p $SSH_PASSWORD update;
      fi
