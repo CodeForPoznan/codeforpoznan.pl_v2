@@ -20,6 +20,12 @@ a:active,
 a.active {
   color: #18BC9C;
 }
+
+
+.cfp-logo {
+	width: 37%;
+}
+
 h1,
 h2,
 h3,
