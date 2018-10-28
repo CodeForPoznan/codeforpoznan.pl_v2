@@ -19,5 +19,7 @@ def update():
     u"""Function defining all steps required to properly update application."""
     with cd('/var/www/codeforpoznan.pl_v2'):
         run('git pull')
-    
+        run('npm install')
+        run('./node_modules/.bin/gulp')
+
     run('systemctl restart nginx')
