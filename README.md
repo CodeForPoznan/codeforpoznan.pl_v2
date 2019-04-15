@@ -12,7 +12,7 @@ To begin using this template, choose one of the following options to get started
 * Fork the repo
 * Use command (when you are in appropriate directory): 
 
-`npm install`
+** `npm install`
 
 ## Bugs and Issues
 
