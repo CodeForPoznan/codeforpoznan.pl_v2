@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://1u59367x0g.execute-api.eu-central-1.amazonaws.com/default/codeforpoznan-website-contact-me",
                 type: "POST",
                 data: {
                     name: name,
@@ -30,6 +30,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
+                crossDomain: true,
                 success: function() {
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
