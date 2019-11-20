@@ -62,12 +62,12 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('vendor/jquery'))
 
     gulp.src([
-            'node_modules/font-awesome/**',
-            '!node_modules/font-awesome/**/*.map',
-            '!node_modules/font-awesome/.npmignore',
-            '!node_modules/font-awesome/*.txt',
-            '!node_modules/font-awesome/*.md',
-            '!node_modules/font-awesome/*.json'
+            'node_modules/@fortawesome/fontawesome-free/**',
+            '!node_modules/@fortawesome/fontawesome-free/**/*.map',
+            '!node_modules/@fortawesome/fontawesome-free/.npmignore',
+            '!node_modules/@fortawesome/fontawesome-free/*.txt',
+            '!node_modules/@fortawesome/fontawesome-free/*.md',
+            '!node_modules/@fortawesome/fontawesome-free/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'))
 })
