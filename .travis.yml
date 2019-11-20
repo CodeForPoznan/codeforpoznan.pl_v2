@@ -18,6 +18,6 @@ script:
      [ "$TRAVIS_BRANCH" == "master" ] &&
      [ "$TRAVIS_PULL_REQUEST" = false ];
   then
-    aws s3 sync . s3://codeforpoznan-public/codeforpoznan.pl_v2/ --delete --exclude "node_modules/*" --exclude ".git/*"
+    aws s3 sync . s3://codeforpoznan-public/codeforpoznan.pl_v2/ --delete --exclude "less/*" --exclude "node_modules/*" --exclude ".git/*"
     aws cloudfront create-invalidation --distribution-id ER7F0YI4881NW --paths "/*"
   fi
