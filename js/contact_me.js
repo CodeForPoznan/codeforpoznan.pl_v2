@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://1u59367x0g.execute-api.eu-central-1.amazonaws.com/default/codeforpoznan-website-contact-me",
+                url: "/api/contact-me",
                 type: "POST",
                 data: {
                     name: name,
